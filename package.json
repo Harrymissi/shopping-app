@@ -12,10 +12,27 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.18.0",
+    "babel-preset-es2015": "^6.24.1",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
+    "crypto-js": "^3.1.9-1",
+    "element-ui": "^2.4.11",
+    "js-pinyin": "^0.1.9",
     "koa": "^2.6.2",
-    "element-ui": "^2.4.11"
+    "koa-bodyparser": "^4.2.1",
+    "koa-generic-session": "^2.0.1",
+    "koa-json": "^2.0.2",
+    "koa-passport": "^4.1.1",
+    "koa-redis": "^3.1.3",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.15",
+    "node-sass": "^4.11.0",
+    "nodemailer": "^5.1.1",
+    "nuxt": "^2.3.4",
+    "passport-local": "^1.0.0",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
