@@ -66,13 +66,13 @@
       }
     },
     async asyncData(ctx) {
-      let city;
-      if (localStorage.getItem('newCity')) {
-        city = JSON.parse(localStorage.getItem('newCity')).replace('市', '');
-      } else {
-        city = '天津'
-      }
-      let {keyword, type} = ctx.query;
+      // let city;
+      // if (localStorage.getItem('newCity')) {
+      //   city = JSON.parse(localStorage.getItem('newCity')).replace('市', '');
+      // } else {
+      //   city = '天津'
+      // }
+      let {keyword, type, city} = ctx.query;
       let {status, data: {product, more:list, login}} = await ctx.$axios.get('/search/products', {
         params: {
           keyword,
