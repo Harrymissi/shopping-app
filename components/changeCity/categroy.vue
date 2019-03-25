@@ -63,5 +63,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/assets/css/changeCity/categroy.scss";
+  @import "../../assets/css/changeCity/categroy.scss";
 </style>

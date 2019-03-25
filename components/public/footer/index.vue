@@ -262,5 +262,5 @@
 </template>
 
 <style lang="scss">
-  @import "@/assets/css/public/footer.scss";
+  @import "../../../assets/css/public/footer.scss";
 </style>

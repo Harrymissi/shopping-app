@@ -1,4 +1,4 @@
-<template>
+j-<template>
   <el-row :gutter="0" class="m-header">
     <el-col :span="5">
       <geo/>
@@ -27,7 +27,7 @@
 </script>
 
 <style lang="scss">
-  @import "@/assets/css/public/layout.scss";
+  @import "../../../assets/css/public/layout.scss";
   //@import "@/assets/css/public/header.scss";
-  @import "@/assets/css/public/header/index.scss";
+  @import "../../../assets/css/public/header/index.scss";
 </style>
