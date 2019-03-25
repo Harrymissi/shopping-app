@@ -2,7 +2,7 @@ import Router from 'koa-router';
 import axios from './utils/axios'
 import Province from '../dbs/models/province'
 
-let router = new Router({prefix: '/category'})
+let router = new Router({prefix: '/category'});
 
 const sign = '61a869a75e94694512ee2d74cd2af3d1';
 

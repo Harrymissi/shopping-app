@@ -52,7 +52,7 @@
                  value: item.id,
                  label: item.name
                }
-             })
+             });
              self.cvalue = '';
            }
          }

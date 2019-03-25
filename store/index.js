@@ -20,7 +20,7 @@ const store = () => new Vuex.Store({
           province,
           city
         }
-      } = await app.$axios.get('/geo/getPosition');
+      } = await app.$axios.get('/geo/getPosition');    // 调用接口，把province和city作为参数返回给store的出发动作setPosition。
       commit('geo/setPosition', status===200?{city,province}:{city:'',province:''});
 
       const {
